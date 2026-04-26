@@ -3,11 +3,11 @@
 > Semantic search + knowledge graph visualization for your codebase. Runs 100% locally.
 
 ## Features
-- 🔍 Semantic search using SentenceTransformers embeddings
-- 🕸️ Knowledge graph built from import relationships  
-- ⚡ Fast vector search via ChromaDB
-- 🎨 Beautiful dark UI built with Next.js + TailwindCSS
-- 📊 Interactive D3.js force-directed graph
+- Semantic search using SentenceTransformers embeddings
+- Knowledge graph built from import relationships  
+- Fast vector search via ChromaDB
+- Dark UI built with Next.js + TailwindCSS
+- Interactive D3.js force-directed graph
 
 ## Stack
 **Backend**: Python · FastAPI · SentenceTransformers · ChromaDB · NetworkX  
