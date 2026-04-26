@@ -1,0 +1,9 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+sentence-transformers==2.7.0
+chromadb==0.5.0
+numpy<2.0.0
+networkx==3.3
+python-multipart==0.0.9
+pydantic==2.7.1
+aiofiles==23.2.1

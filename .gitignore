@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+.venv/
+
+# Backend runtime data
+backend/chroma_db/
+backend/uploads/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE / local tooling
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

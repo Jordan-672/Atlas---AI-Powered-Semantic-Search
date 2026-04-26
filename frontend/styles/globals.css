@@ -1,0 +1,53 @@
+/* globals.css */
+/* Tailwind's three directives inject its generated styles */
+
+@tailwind base;
+/* @tailwind base: injects Tailwind's "preflight" CSS reset.
+   It normalizes browser default styles (removes margins, standardizes fonts, etc.) */
+
+@tailwind components;
+/* @tailwind components: injects Tailwind component classes
+   (things defined in plugins or @layer components in your config) */
+
+@tailwind utilities;
+/* @tailwind utilities: injects all Tailwind utility classes like
+   text-xl, bg-blue-500, flex, grid, p-4, etc.
+   This is the bulk of Tailwind's CSS output. */
+
+/* Import Google Fonts for our custom typography */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Global styles applied to the document root */
+html, body {
+  background-color: #0a0e1a;
+  /* Deep navy background — sets the default page color */
+  color: #e2e8f0;
+  /* Off-white text color */
+  font-family: 'Space Grotesk', sans-serif;
+  /* Default body font */
+}
+
+/* Custom scrollbar styling for WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Thin 6px wide scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: #111827;
+  /* Dark scrollbar track */
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 3px;
+  /* Rounded dark thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+  /* Blue on hover */
+}
+
+/* Selection highlight color */
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+  /* Semi-transparent blue selection highlight */
+}
